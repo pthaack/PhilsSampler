@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Phil\'s Sampler</string>
+    <string name="sampler_api_key">AIzaSyCEZ_dZVGvaz0ERkZsiBh_rJd3C7Pq2ONg</string>
+
+    <!--  Navigation Menu  -->
+    <string name="nav_header_title">Phil\'s Sampler</string>
+    <string name="nav_header_subtitle">phil@philipyoung.ca</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_print">Print Calendar</string>
+    <string name="nav_rotate">Rotate</string>
+    <string name="nav_photo">Take Photo</string>
+    <string name="nav_list">List View</string>
+    <string name="nav_grid">Grid View</string>
+    <string name="nav_internet">Connect to Internet</string>
+    <string name="nav_api">RESTful API</string>
+    <string name="nav_json">JSON</string>
+    <string name="nav_xml">XML</string>
+    <string name="nav_dialog">Custom Dialog Box</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_encryption">Encryption</string>
+    <string name="nav_eula">EULA</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_about">About</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_logoff">Sign Out</string>
+    <string name="nav_login">Sign In</string>
+    <string name="nav_exit">Exit</string>
+
+    <!--  Overflow Menu  -->
+    <string name="action_settings">Settings</string>
+
+    <!--  General text  -->
+    <string name="blank_space" />
+    <string name="sample_short_text">sample short text</string>
+    <string name="sample_long_text">sample long text that goes on and on and on and \nhas a carriage return</string>
+
+    <!--  Splash screen  -->
+    <string name="splash_text">Phil\'s Sampler</string>
+
+    <!--  Dashboard screen  -->
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="dashboard_remark_text">
+        "This app is a sampler of some of my favourite tips and tricks that I have learned for Android."
+        "\n\nSome of the cleverer things that I have done are proprietary to my clients and I may not share in my portfolio."
+        "\n\nClick on the menu to the left to select a demo."
+    </string>
+    <string name="navigation_drawer_communicate">Communicate</string>
+    <string name="rotate_hint_1">Enter some text</string>
+    <string name="rotate_hint_2">in each of these fields</string>
+    <string name="rotate_hint_3">then rotate the screen</string>
+    <string name="rotate_checkbox_text">Remember inputs</string>
+
+    <!--  Print screen  -->
+    <string name="print_2018_calendar">Print 2018 Calendar</string>
+    <string name="print_2019_calendar">Print 2019 Calendar</string>
+    <string name="print_annual_calendar">Print %1$tY Calendar</string>
+
+    <!--  Documentation screen  -->
+    <string name="title_activity_documentation">Documentation</string>
+    <string name="title_activity_eula">EULA</string>
+    <string name="title_activity_privacy_policy">Privacy Policy</string>
+    <string name="title_activity_encryption">Encryption</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_help">Help</string>
+    <string name="documentation_about_html">
+        "&lt;p&gt;This app is a sampler of some of my favourite tips and tricks that I have learned for Android.&lt;/p&gt;"
+        "&lt;p&gt;Some of the cleverer things that I have done are proprietary to my clients and I may not share in my portfolio.&lt;/p&gt;"
+        "&lt;p&gt;Click on the main menu at the top left to select a demo.&lt;/p&gt;"
+    </string>
+    <string name="documentation_help_html">
+        "&lt;h3&gt;&lt;img src='ic_menu_camera' /&gt; Take Photo&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;If you wanted to document your stuff, you would take a photo with the camera and add a heading and detailed description. This app is just a demo and does not save your stuff to a database. Visit JCY Creative Studio on Google Play for my useful uses of this feature.&lt;/p&gt;"
+        "&lt;h3&gt;&lt;img src='ic_menu_rotate' /&gt; Rotate&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;Enter text and rotate the screen.  One of the fundamental features in Android programming is managing what happens when the user rotates the screen.  &lt;/p&gt;"
+        "&lt;h3&gt;&lt;img src='ic_menu_list' /&gt; List View&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;Demonstrate how to display data in a list.  I provide an image, a heading, two short descriptions, and a long description.  Once selected, the menu item switches to Grid View.&lt;/p&gt;"
+        "&lt;h3&gt;&lt;img src='ic_menu_grid' /&gt; Grid View&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;After the user selects List View, the menu item switches to Grid View.  This will display similar data that was in List View, except that the only the image and the heading are displayed.  Once selected, the menu item switches back to List View.&lt;/p&gt;"
+        "&lt;h3&gt;&lt;img src='ic_menu_print' /&gt; Print Calendar&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;The screen displays two buttons, one for this year, the other for next year.  Selecting either button will build a report that can be printed.  Change the size of the paper to see how the program reacts, respaces the gaps between the months, and adds or removes pages as necessary.&lt;/p&gt;"
+        "&lt;h3&gt;&lt;img src='ic_menu_api' /&gt; RESTful API&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;The screen takes your position, displays it in the GPS fields, and requests a Google map.  When the request is fulfilled, the map updates and the address is displayed in the description field.&lt;/p&gt;"
+        "&lt;h3&gt;&lt;img src='ic_menu_encryption' /&gt; Encryption&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;This demonstrates encryption and decription using Advanced Encryption System (AES).  Enter up to sixteen (16) characters in the key field. As long as less than sixteen characters are in this field, random characters (salt) are added to the key to fill the gap. Then enter as long a message as you want in the message field. As you type, the message is encrypted and the encrypted text is displayed.  If you want, you could copy the text and take it to your favourite hacker site to try to decrypt it. The encrypted message is decripted in the decrypted message field.&lt;/p&gt;"
+        "&lt;h3&gt;&lt;img src='ic_menu_notification' /&gt; Notifications&lt;/h3&gt;"
+        ""
+        "&lt;p&gt;This demonstates notifications in Android.  Select when and how often you want Android to send you notifications about this app. Also, select which page you wish to see upon returning to the app. You can even close the app and the notifications will still keep coming. To turn off notifications, select stop.&lt;/p&gt;"
+    </string>
+    <string name="documentation_eula_html">
+        "&lt;p&gt;This app is a sampler of some of my favourite tips and tricks that I have learned for Android.&lt;/p&gt;"
+        "&lt;p&gt;Some of the cleverer things that I have done are proprietary to my clients and I may not share in my portfolio.&lt;/p&gt;"
+        "&lt;p&gt;Click on the main menu at the top left to select a demo.&lt;/p&gt;"
+    </string>
+    <string name="documentation_privacy_html">
+        "&lt;p&gt;This app is a sampler of some of my favourite tips and tricks that I have learned for Android.&lt;/p&gt;"
+        "&lt;p&gt;Some of the cleverer things that I have done are proprietary to my clients and I may not share in my portfolio.&lt;/p&gt;"
+        "&lt;p&gt;Click on the main menu at the top left to select a demo.&lt;/p&gt;"
+    </string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+
+    <string name="encryption_text_clear">Enter sample text</string>
+    <string name="encryption_text_code">Enter a 16 letter and number encryption code</string>
+    <string name="encryption_hint_code">16 letters and numbers</string>
+    <string name="encryption_text_encrypted">Encrypted text</string>
+    <string name="encryption_text_decrypt_code">Salted decryption code</string>
+    <string name="encryption_hint_decrypt_code">Decryption code</string>
+    <string name="encryption_text_decrypted">Decrypted text</string>
+
+    <string name="notification_next_text">Select when to get next notification</string>
+    <string name="notification_frequency_text">Select frequency to get notification</string>
+    <string name="notification_choose_demo">Select demo to display on notification</string>
+    <string name="notify_date_key">Notification for %1$tB %1$te, %1$tY.</string>
+    <string name="notify_title_alert_message">Sampler Reminder</string>
+    <string name="notify_description_alert_message">Notification for %1$tB %1$te, %1$tY.</string>
+    <string name="notify_ticker_alert_message">Phil\'s Sampler sending reminder on %1$tB %1$te, %1$tY.</string>
+    <string-array name="notification_next_list_titles">
+        <item>Stop</item>
+        <item>3 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>90 seconds</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>1 hour</item>
+        <item>Tomorrow</item>
+    </string-array>
+    <string-array name="notification_next_list_values">
+        <item>-1</item>
+        <item>3</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>300</item>
+        <item>900</item>
+        <item>3600</item>
+        <item>86400</item>
+    </string-array>
+    <string-array name="notification_freq_list_titles">
+        <item>Once</item>
+        <item>Every 30 seconds</item>
+        <item>Every 1 minute</item>
+        <item>Every 90 seconds</item>
+        <item>Every 2 minutes</item>
+        <item>Every 5 minutes</item>
+        <item>Every 15 minutes</item>
+        <item>Every 1 hour</item>
+        <item>Daily</item>
+    </string-array>
+    <string-array name="notification_freq_list_values">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+        <item>300</item>
+        <item>900</item>
+        <item>3600</item>
+        <item>86400</item>
+    </string-array>
+    <string-array name="notification_choose_demo_titles">
+        <item>@string/nav_notifications</item>
+        <item>@string/nav_photo</item>
+        <item>@string/nav_rotate</item>
+        <item>@string/nav_list</item>
+        <item>@string/nav_grid</item>
+        <item>@string/nav_print</item>
+        <item>@string/nav_api</item>
+        <item>@string/nav_encryption</item>
+        <item>@string/nav_about</item>
+        <item>@string/nav_help</item>
+        <item>@string/nav_privacy_policy</item>
+        <item>@string/nav_eula</item>
+    </string-array>
+
+    <!-- File Services -->
+    <string name="wes_dialog_permissions_message">Allow access to files to display maps.</string>
+    <string name="wes_dialog_permissions_positive">Continue</string>
+    <string name="wes_dialog_permissions_negative">Deny</string>
+
+    <!-- Web Services -->
+    <string name="ws_no_internet">Lost Internet Connection</string>
+    <string name="ws_toast_initializing_internet">Checking Internet for connection</string>
+    <string name="ws_toast_initialized_internet">Internet connection successful</string>
+    <string name="ws_downloading_updates">Downloading updates</string>
+    <string name="ws_downloading_cancelled">Download cancelled</string>
+    <string name="ws_dialog_permissions_message">Allow access the Internet to fetch maps and your address.</string>
+    <string name="ws_dialog_permissions_positive">Continue</string>
+    <string name="ws_dialog_permissions_negative">Deny</string>
+
+    <!-- GPS Location Services -->
+    <string name="gps_dialog_disabled_message">GPS Disabled</string>
+    <string name="gps_dialog_enabled_message">GPS Enabled \nWaiting for Google Map</string>
+    <string name="gps_dialog_permissions_message">Allow access to this device\'s loocation</string>
+    <string name="gps_dialog_permissions_positive">Continue</string>
+    <string name="gps_dialog_permissions_negative">Deny</string>
+    <string name="gps_dialog_not_enabled_message">GPS Disabled \nGo into Android Settings and enable Location</string>
+    <string name="general_dialog_permissions_message">This function needs additional permissions.\nYou can later go into Android Settings to disable permissions.</string>
+    <string name="gps_url_map_image">https://maps.google.com/maps/api/staticmap?center=%1$.4f,%2$.4f&amp;zoom=14&amp;size=%4$dx%5$d&amp;sensor=false&amp;key=%3$s</string>
+    <string name="gps_url_geo_address">https://maps.google.com/maps/api/geocode/json?sensor=false&amp;latlng=%1$.4f,%2$.4f&amp;key=%3$s</string>
+
+</resources>

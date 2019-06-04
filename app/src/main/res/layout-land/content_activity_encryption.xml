@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/encrypt_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/encryption_text_code" />
+
+            <EditText
+                android:id="@+id/input_code"
+                android:layout_width="@dimen/encrypt_land_width"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/encryption_hint_code"
+                android:nextFocusForward="@id/input_clear"
+                android:inputType="textEmailSubject"
+                android:maxLength="16" />
+
+            <TextView
+                android:id="@+id/text_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/encryption_text_clear" />
+
+            <EditText
+                android:id="@+id/input_clear"
+                android:layout_width="@dimen/encrypt_land_width"
+                android:layout_height="@dimen/encrypt_land_height"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="top|left"
+                android:hint="@string/encryption_text_clear"
+                android:nextFocusForward="@id/input_code"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/text_encrypted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/encryption_text_encrypted" />
+
+            <EditText
+                android:id="@+id/input_encrypted"
+                android:layout_width="@dimen/encrypt_land_width"
+                android:layout_height="@dimen/encrypt_land_height"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="top|left"
+                android:hint="@string/encryption_text_encrypted"
+                android:inputType="none"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_decrypt_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/encryption_text_decrypt_code" />
+
+            <EditText
+                android:id="@+id/input_decrypt_code"
+                android:layout_width="@dimen/encrypt_land_width"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:hint="@string/encryption_hint_decrypt_code"
+                android:inputType="none"
+                android:maxLength="16" />
+
+            <TextView
+                android:id="@+id/text_decrypted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:text="@string/encryption_text_decrypted" />
+
+            <EditText
+                android:id="@+id/input_decrypted"
+                android:layout_width="@dimen/encrypt_land_width"
+                android:layout_height="@dimen/encrypt_land_height"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="top|left"
+                android:hint="@string/encryption_text_decrypted"
+                android:inputType="none"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

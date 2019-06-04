@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="image_minimum_short_edge">360</integer>
+    <integer name="image_typical_short_edge">1200</integer>
+    <integer name="image_maximum_short_edge">3000</integer>
+    <integer name="image_minimum_compression">10</integer>
+    <integer name="image_typical_compression">90</integer>
+    <integer name="image_maximum_compression">100</integer>
+</resources>

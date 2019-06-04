@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/nav_photo" />
+        <item
+            android:id="@+id/nav_rotate"
+            android:icon="@drawable/ic_menu_rotate"
+            android:title="@string/nav_rotate" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_menu_list"
+            android:title="@string/nav_list" />
+        <item
+            android:id="@+id/nav_print"
+            android:icon="@drawable/ic_menu_print"
+            android:title="@string/nav_print" />
+    </group>
+
+    <item android:title="@string/navigation_drawer_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_api"
+                android:icon="@drawable/ic_menu_api"
+                android:title="@string/nav_api" />
+            <item
+                android:id="@+id/nav_encryption"
+                android:icon="@drawable/ic_menu_encryption"
+                android:title="@string/nav_encryption"
+                />
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_menu_notification"
+                android:title="@string/nav_notifications" />
+        </menu>
+    </item>
+    <group
+        android:id="@+id/menu_group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_info"
+            android:title="@string/nav_about" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_menu_help"
+            android:title="@string/nav_help" />
+        <item
+            android:id="@+id/nav_logoff"
+            android:icon="@drawable/ic_menu_sign_off"
+            android:title="@string/nav_logoff" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_menu_exit"
+            android:title="@string/nav_exit" />
+    </group>
+
+</menu>

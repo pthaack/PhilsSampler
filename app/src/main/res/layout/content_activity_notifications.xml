@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/notify_view"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding_all">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/dashboard_text_size"
+        android:text="@string/notification_next_text"/>
+    <Spinner
+        android:id="@+id/next_notification"
+        android:layout_width="@dimen/rotate_input_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/btn_default"
+        android:textSize="@dimen/dashboard_text_size"
+        android:entries="@array/notification_next_list_titles"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/dashboard_text_size"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/notification_frequency_text"/>
+    <Spinner
+        android:id="@+id/freq_notification"
+        android:layout_width="@dimen/rotate_input_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/notification_freq_list_titles"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/notification_next_text"
+        android:background="@android:drawable/btn_default"
+        android:textSize="@dimen/dashboard_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/dashboard_text_size"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/notification_choose_demo"/>
+    <Spinner
+        android:id="@+id/choose_demo_notification"
+        android:layout_width="@dimen/rotate_input_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/notification_choose_demo_titles"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/notification_choose_demo"
+        android:background="@android:drawable/btn_default"
+        android:textSize="@dimen/dashboard_text_size" />
+
+</LinearLayout>

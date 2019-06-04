@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin_vertical">16dp</dimen>
+    <dimen name="splash_text_size">18sp</dimen>
+    <dimen name="activity_padding_all">8dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dashboard_text_size">18sp</dimen>
+    <dimen name="dashboard_vertical_margin">48dp</dimen>
+    <dimen name="rotate_input_text_width">240dp</dimen>
+    <dimen name="minicard_text_size">12sp</dimen>
+    <dimen name="gridview_vertical_margin">8dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="gallery_height">385dp</dimen>
+    <dimen name="gallery_width">385dp</dimen>
+    <dimen name="card_height">216dp</dimen>
+    <dimen name="card_width">216dp</dimen>
+    <dimen name="gallery_thumbnail_height">135dp</dimen>
+    <dimen name="gallery_thumbnail_width">135dp</dimen>
+    <dimen name="minicard_thumbnail_height">65dp</dimen>
+    <dimen name="minicard_thumbnail_width">65dp</dimen>
+    <dimen name="listview_divider_height">8dp</dimen>
+    <dimen name="encrypt_height">176dp</dimen>
+    <dimen name="encrypt_width">385dp</dimen>
+    <dimen name="encrypt_land_width">240dp</dimen>
+    <dimen name="encrypt_land_height">96dp</dimen>
+</resources>

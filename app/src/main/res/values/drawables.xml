@@ -1,0 +1,23 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_api" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_encryption" type="drawable">@android:drawable/ic_lock_idle_lock</item>
+    <item name="ic_menu_notification" type="drawable">@android:drawable/ic_menu_recent_history</item>
+    <item name="ic_menu_notifications_off" type="drawable">@android:drawable/ic_popup_reminder</item>
+    <item name="ic_menu_rotate" type="drawable">@android:drawable/ic_menu_rotate</item>
+    <item name="ic_menu_list" type="drawable">@android:drawable/ic_menu_sort_by_size</item>
+    <item name="ic_menu_grid" type="drawable">@android:drawable/ic_dialog_dialer</item>
+    <item name="ic_menu_print" type="drawable">@android:drawable/ic_menu_today</item>
+    <item name="ic_menu_help" type="drawable">@android:drawable/ic_menu_help</item>
+    <item name="ic_menu_info" type="drawable">@android:drawable/ic_menu_info_details</item>
+    <item name="ic_menu_sign_on" type="drawable">@android:drawable/ic_partial_secure</item>
+    <item name="ic_menu_sign_off" type="drawable">@android:drawable/ic_secure</item>
+    <item name="ic_menu_geolocation_on" type="drawable">@android:drawable/ic_menu_mylocation</item>
+    <item name="ic_menu_geolocation_off" type="drawable">@android:drawable/ic_menu_view</item>
+    <item name="ic_menu_map" type="drawable">@android:drawable/ic_dialog_map</item>
+    <item name="ic_menu_exit" type="drawable">@android:drawable/ic_lock_power_off</item>
+</resources>
