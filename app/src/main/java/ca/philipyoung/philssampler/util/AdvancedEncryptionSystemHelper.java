@@ -19,6 +19,13 @@ Advanced Encryption System (AES)
 Demonstrates the use of symmetric encryption on Android (AES-256)
 From: Enterprise Android (Mednieks, Meike, Dornin, Pan) Chapter 12
  */
+
+/*
+Check input/output with 
+https://www.devglan.com/online-tools/aes-encryption-decryption
+128 bit
+ECB mode
+*/
 public class AdvancedEncryptionSystemHelper {
     private String padding =
             "ISO10126Padding"; //"ISO10126Padding", "PKCS5Padding"
